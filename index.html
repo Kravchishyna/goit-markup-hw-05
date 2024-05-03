@@ -32,6 +32,30 @@
              </address>
             </div>
               </header>
+                <!-- modal-overlay -->
+            <div class="modal-overlay is-open">
+              <div class="modal">
+                <button class="modal-btn" type="button">
+                  <svg class="modal-btn-svg" width="8" height="8"><use href="./images/icons.svg#icon-close-black"></use></svg></button>
+                  <h3>Leave your contacts and we will call you back</h3>
+                  <form class="form">
+                    <label for="name" class="form-dscr">Name</label>
+                    <input class="input-form" id="name" type="text" name="" required/>
+                    <label for="phone" class="form-dscr">Phone</label>
+                    <input class="input-form" id="phone" type="text" name="" required/>
+                    <label for="email" class="form-dscr">Email</label>
+                    <input class="input-form" id="email" type="text" name="" required/>
+                    <label for="comment" class="form-dscr">Comment</label>
+                    <input class="input-form" id="comment" type="text" name="" placeholder="Text input" required/>
+                    <label>I accept the terms and conditions of the Privacy Policy
+                      <svg><use></use></svg>
+                      <input class="checkbox" name="" value="I accept the terms and conditions of the Privacy Policy">
+                    </label>
+                    
+                    <button class="input-btn" type="submit">Send</button>
+                  </form>
+              </div>
+            </div>
     
              <main>
              <!--====== hero 1 section =======-->
@@ -274,9 +298,6 @@
                   </div>
              </footer>
             </main>
-            <!-- modal-overlay -->
-            <div class="modal-overlay">
-              <div class="modal"></div>
-            </div>
+          
 </body>
 </html>
