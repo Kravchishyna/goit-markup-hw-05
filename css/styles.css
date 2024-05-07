@@ -607,9 +607,7 @@ fill: #ffffff;
     position: absolute;
     top: 50%;
     left: 16px;
-    transform: translateY(-50%);
-}
-.icon-form {
+    transform: translateY(-50%); fill: #ffffff;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-form:focus + .icon-form {
