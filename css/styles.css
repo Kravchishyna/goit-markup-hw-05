@@ -551,7 +551,7 @@ background-color: #404bbf;
 fill: #ffffff;
 }
 .modal-btn-svg {
-   transition:  fill #ffffff 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: fill #ffffff 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form {
     display: flex;
@@ -626,6 +626,7 @@ fill: #ffffff;
     background-color: transparent;
     resize: none;
     padding: 8px 16px;
+    outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-comment {
@@ -643,7 +644,6 @@ fill: #ffffff;
     color: rgba(46, 47, 66, 0.4);
 }
 .box-wrap {
-    display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
@@ -762,6 +762,7 @@ fill: #ffffff;
     display: block;
 }
 .icon-form-f {
+    margin-left: 16px;
     transition: fill #ffffff 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
