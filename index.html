@@ -271,22 +271,23 @@
                         </li>
                        </ul>
                     </div>
-                  </div>
-                  <div class="form-container">
+                    <div class="form-container">
                       <p class="text-form-f">Subscribe</p>
                       <form class="form-footer">
                        <label class="dscr-form" for="user-email">
                        <input class="dscr-field-form"
                         name="user-email"
-                         type="email"
-                         id="user-email"
-                          placeholder="E-mail">
+                        type="email"
+                        id="user-email"
+                        placeholder="E-mail">
                         </label>
                        
                         <button class="btn-field" type="submit">Subscribe<svg class="icon-form-f" width="24" height="24"><use href="./images/icons.svg#icon-telegram"></use></svg></button>
                         
                       </form>
                   </div>
+                </div>
+               
              </footer>
                 <!-- modal-overlay -->
                 <div class="modal-overlay is-open">
@@ -308,15 +309,18 @@
                        <div class="form-wrapper">
                         <label class="form-dscr" for="phone" >Phone</label>
                         <div class="input-form-wrap">
-                          <input class="input-form" id="phone" type="tel" name="user-phone" placeholder="Your namber">
+                          <input class="input-form" id="phone" type="tel" name="user-phone" >
                           <svg class="icon-form" width="18" height="24"><use href="./images/icons.svg#icon-phone-black"></use></svg>
                         </div>
                       </div>
     
                        <div class="form-wrapper">
-                        <label class="form-dscr" for="user-email" >Email</label>
+                        <label class="form-dscr" for="user-email">Email</label>
                         <div class="input-form-wrap">
-                          <input class="input-form" id="user-email" type="email" name="user-email" placeholder="Your email" required>
+                          <input class="input-form"
+                          id="user-email" type="email"
+                          name="user-email"
+                           required>
                           <svg class="icon-form" width="18" height="24"><use href="./images/icons.svg#icon-email-black" ></use></svg>
                         </div>
                       </div>
@@ -333,11 +337,15 @@
     
                       <div class="checkbox-wrapper">
                         <input class="checkbox visually-hidden"
-                        id="privacy-policy"
+                        id="user-privacy"
                         type="checkbox"
-                        name="user-privasy"
+                        name="user-privacy"
                         value="true" required>
-                        <label class="box-wrap" for="user-privasy"><span class="box-wrap-inv"><svg class="icon-form-wrap" width="10" height="8"><use href="./images/icons.svg#icon-chek" ></use></svg></span>I accept the terms and conditions of the<a class="checkbox-link" href="">Privacy Policy</a></label> 
+                        <label class="box-wrap" for="user-privacy">
+                        <span class="box-wrap-inv"><svg class="icon-form-wrap" width="10" height="8">
+                        <use href="./images/icons.svg#icon-chek" ></use></svg>
+                       </span>I accept the terms and conditions of the<a class="checkbox-link" href="">Privacy Policy</a>
+                       </label> 
                       </div>
                         <button class="input-btn" type="submit">Send</button>
                       </form>

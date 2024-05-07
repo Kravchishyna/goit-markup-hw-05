@@ -556,7 +556,6 @@ fill: #ffffff;
 .form {
     display: flex;
     width: 360px;
-   
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
@@ -567,7 +566,7 @@ fill: #ffffff;
 .input-form {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    width: 100%;
+    width: 360px;
     height: 40px;
     padding-left: 38px;
     margin-bottom: 8px;
@@ -612,19 +611,19 @@ fill: #ffffff;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-form:focus + .icon-form {
-    color: #4d5ae5;
+    fill: #4d5ae5;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-comment-dscr {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    width: 100%;
+    width: 360px;
     height: 120px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
-    outline: transparent;
+    background-color: transparent;
     resize: none;
     padding: 8px 16px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -655,7 +654,9 @@ fill: #ffffff;
     color: #8e8f99;
 }
 .checkbox-link {
+    font-size: 12px;
     line-height: 1.33;
+    letter-spacing: 0.04em;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
@@ -673,15 +674,12 @@ fill: #ffffff;
     margin-right: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox:checked {
-    border: none;
-}
+
 .checkbox:checked + .box-wrap .box-wrap-inv{
     background-color: #404bbf;
-    border-color: #404bbf;
-    fill: #ffffff;
+    border: none;
+    fill: #f4f4fd; 
 }
-
 .checkbox-wrapper {
     margin-bottom: 24px;
 }
@@ -704,6 +702,8 @@ fill: #ffffff;
     border-radius: 4px;
     margin: 0 auto;
     padding: 16px 32px;
+    background-color: #4d5ae5;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.15);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .text-form-f {
@@ -762,7 +762,7 @@ fill: #ffffff;
     display: block;
 }
 .icon-form-f {
-    fill: #ffffff;
+    transition: fill #ffffff 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
